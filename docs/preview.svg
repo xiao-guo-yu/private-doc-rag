@@ -1,0 +1,118 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D473C"/>
+      <stop offset="1" stop-color="#0E261F"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="230" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78A48F"/>
+      <stop offset="1" stop-color="#D9B269"/>
+    </linearGradient>
+    <filter id="shadow" x="270" y="-40" width="840" height="810" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#06130F" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="1120" cy="84" r="220" fill="#83AF97" opacity="0.08"/>
+  <circle cx="930" cy="660" r="280" fill="#D9B269" opacity="0.06"/>
+  <path d="M0 592C190 520 320 654 500 590C710 514 876 566 1280 440V720H0V592Z" fill="#0B211B" opacity="0.45"/>
+
+  <rect x="42" y="38" width="1196" height="644" rx="24" fill="#F7F5EE" filter="url(#shadow)"/>
+  <rect x="42" y="38" width="280" height="644" rx="24" fill="#173A31"/>
+  <rect x="300" y="38" width="2" height="644" fill="#D9D6CC"/>
+  <rect x="970" y="38" width="268" height="644" rx="24" fill="#ECE9E0"/>
+  <rect x="968" y="38" width="2" height="644" fill="#D9D6CC"/>
+
+  <rect x="68" y="68" width="48" height="48" rx="14" fill="#F5F2E7" opacity="0.08" stroke="#D9B269" stroke-opacity="0.42"/>
+  <text x="92" y="102" text-anchor="middle" fill="#F5F2E7" font-family="serif" font-size="27">页</text>
+  <text x="130" y="92" fill="#F7F5EA" font-family="serif" font-size="26" letter-spacing="4">页知</text>
+  <text x="131" y="111" fill="#A7B9AE" font-family="sans-serif" font-size="8" letter-spacing="2">PRIVATE DOCUMENT RAG</text>
+
+  <rect x="66" y="145" width="232" height="66" rx="13" fill="#F8F7EC" opacity="0.07" stroke="#F8F7EC" stroke-opacity="0.1"/>
+  <circle cx="84" cy="176" r="4" fill="#A8D1B4"/>
+  <text x="98" y="172" fill="#F5F3E9" font-family="sans-serif" font-size="11">我的资料库</text>
+  <text x="98" y="189" fill="#A7B9AE" font-family="sans-serif" font-size="8">1 份文档 · 20 个切片</text>
+
+  <rect x="66" y="228" width="232" height="120" rx="16" fill="#F8F7EC" opacity="0.055" stroke="#E4CC94" stroke-opacity="0.35" stroke-dasharray="5 5"/>
+  <circle cx="182" cy="267" r="15" fill="none" stroke="#D9B269"/>
+  <text x="182" y="273" text-anchor="middle" fill="#D9B269" font-family="sans-serif" font-size="18">+</text>
+  <text x="182" y="302" text-anchor="middle" fill="#EFEEE4" font-family="sans-serif" font-size="10">拖入 PDF，建立私有知识库</text>
+  <text x="182" y="321" text-anchor="middle" fill="#859A8E" font-family="sans-serif" font-size="7">800 字切块 · 100 字重叠</text>
+
+  <rect x="66" y="375" width="232" height="58" rx="11" fill="#F8F7EC" opacity="0.07" stroke="#F8F7EC" stroke-opacity="0.1"/>
+  <rect x="79" y="388" width="29" height="31" rx="7" fill="#F8F7EC" opacity="0.08"/>
+  <text x="94" y="408" text-anchor="middle" fill="#D9B269" font-family="monospace" font-size="7">PDF</text>
+  <text x="119" y="399" fill="#EEEDE3" font-family="sans-serif" font-size="9">人工智能技术题库</text>
+  <text x="119" y="415" fill="#879A8E" font-family="sans-serif" font-size="7">34 页 · 18 切块 · 569 KB</text>
+
+  <text x="68" y="555" fill="#7F9689" font-family="sans-serif" font-size="8">文档与向量索引保存在本机</text>
+  <rect x="68" y="576" width="56" height="22" rx="5" fill="#F8F7EC" opacity="0.045"/>
+  <text x="96" y="590" text-anchor="middle" fill="#7F9689" font-family="monospace" font-size="6">800/100</text>
+  <rect x="132" y="576" width="48" height="22" rx="5" fill="#F8F7EC" opacity="0.045"/>
+  <text x="156" y="590" text-anchor="middle" fill="#7F9689" font-family="monospace" font-size="6">TOP 5</text>
+
+  <text x="334" y="76" fill="#D5653E" font-family="sans-serif" font-size="8" font-weight="700" letter-spacing="3">GROUNDED ANSWERS</text>
+  <text x="334" y="117" fill="#1B2D27" font-family="serif" font-size="30">向你的文档提问</text>
+  <rect x="760" y="62" width="116" height="34" rx="17" fill="#EFEDE5" stroke="#D8D5CB"/>
+  <circle cx="780" cy="79" r="4" fill="#5E9F78"/>
+  <text x="791" y="83" fill="#42564D" font-family="sans-serif" font-size="9">大模型在线</text>
+
+  <rect x="543" y="170" width="250" height="54" rx="14" fill="#173A31"/>
+  <text x="668" y="202" text-anchor="middle" fill="#F7F3E8" font-family="sans-serif" font-size="11">项目用了哪些技术栈？</text>
+  <circle cx="350" cy="271" r="16" fill="#173A31"/>
+  <text x="350" y="277" text-anchor="middle" fill="#F8F3E6" font-family="serif" font-size="15">页</text>
+  <text x="378" y="266" fill="#263A32" font-family="sans-serif" font-size="10" font-weight="700">页知</text>
+  <text x="415" y="266" fill="#8A968F" font-family="sans-serif" font-size="7">DeepSeek · 流式生成</text>
+
+  <text x="350" y="306" fill="#243831" font-family="sans-serif" font-size="11">根据已上传文档，可以确认：</text>
+  <circle cx="362" cy="337" r="2.5" fill="#D5653E"/>
+  <text x="375" y="341" fill="#243831" font-family="sans-serif" font-size="10">前端使用 Vue3 + TypeScript，后端使用 FastAPI。</text>
+  <circle cx="362" cy="368" r="2.5" fill="#D5653E"/>
+  <text x="375" y="372" fill="#243831" font-family="sans-serif" font-size="10">PDF 按 800 字切片，并保留 100 字重叠。</text>
+  <circle cx="362" cy="399" r="2.5" fill="#D5653E"/>
+  <text x="375" y="403" fill="#243831" font-family="sans-serif" font-size="10">回答使用 SSE 流式输出，并附页码引用。</text>
+
+  <rect x="350" y="438" width="147" height="28" rx="7" fill="#FFFEF9" stroke="#DAD7CD"/>
+  <text x="363" y="457" fill="#D5653E" font-family="monospace" font-size="8">[1]</text>
+  <text x="385" y="456" fill="#5D6D65" font-family="sans-serif" font-size="7">校园RAG助手.pdf · 第1页</text>
+  <rect x="506" y="438" width="130" height="28" rx="7" fill="#FFFEF9" stroke="#DAD7CD"/>
+  <text x="519" y="457" fill="#D5653E" font-family="monospace" font-size="8">[2]</text>
+  <text x="541" y="456" fill="#5D6D65" font-family="sans-serif" font-size="7">人工智能题库 · 第14页</text>
+
+  <rect x="334" y="518" width="582" height="88" rx="15" fill="#FFFEF9" stroke="#CFCBC0"/>
+  <text x="352" y="548" fill="#A1AAA4" font-family="sans-serif" font-size="10">询问文档中的事实、指标、结论或差异…</text>
+  <rect x="832" y="566" width="66" height="26" rx="8" fill="#173A31"/>
+  <text x="865" y="583" text-anchor="middle" fill="#F6F2E6" font-family="sans-serif" font-size="8">提问 ↑</text>
+  <text x="625" y="635" text-anchor="middle" fill="#A0AAA4" font-family="sans-serif" font-size="7">每条结论都能回到文档页码与原文片段</text>
+
+  <text x="995" y="75" fill="#D5653E" font-family="sans-serif" font-size="8" font-weight="700" letter-spacing="3">EVIDENCE</text>
+  <text x="995" y="112" fill="#1B2D27" font-family="serif" font-size="27">原文依据</text>
+  <rect x="995" y="139" width="214" height="1" fill="#D5D1C6"/>
+  <text x="999" y="184" fill="#D5653E" font-family="serif" font-size="32">3</text>
+  <text x="1024" y="177" fill="#33443D" font-family="sans-serif" font-size="9" font-weight="700">个相关片段</text>
+  <text x="1024" y="191" fill="#909A94" font-family="sans-serif" font-size="7">已按相关度排序</text>
+  <rect x="995" y="213" width="26" height="26" rx="7" fill="#173A31"/>
+  <text x="1008" y="230" text-anchor="middle" fill="#F7F3E7" font-family="monospace" font-size="8">1</text>
+  <rect x="1028" y="213" width="26" height="26" rx="7" fill="#F9F7F0" stroke="#D6D2C7"/>
+  <text x="1041" y="230" text-anchor="middle" fill="#89948E" font-family="monospace" font-size="8">2</text>
+  <rect x="1061" y="213" width="26" height="26" rx="7" fill="#F9F7F0" stroke="#D6D2C7"/>
+  <text x="1074" y="230" text-anchor="middle" fill="#89948E" font-family="monospace" font-size="8">3</text>
+
+  <rect x="986" y="253" width="236" height="298" rx="13" fill="#FFFEF9" stroke="#D7D3C8"/>
+  <rect x="1001" y="269" width="25" height="25" rx="7" fill="#F4DED3"/>
+  <text x="1013" y="286" text-anchor="middle" fill="#C75C38" font-family="monospace" font-size="8">1</text>
+  <text x="1037" y="277" fill="#34443D" font-family="sans-serif" font-size="8" font-weight="700">校园私有文档RAG助手</text>
+  <text x="1037" y="291" fill="#98A19C" font-family="sans-serif" font-size="6">第 1 页 · 切块 0</text>
+  <text x="1001" y="320" fill="#98A19C" font-family="sans-serif" font-size="6">相关度</text>
+  <rect x="1035" y="316" width="150" height="3" rx="2" fill="#E6E4DA"/>
+  <rect x="1035" y="316" width="110" height="3" rx="2" fill="url(#bar)"/>
+  <line x1="1001" y1="336" x2="1207" y2="336" stroke="#E4E0D5"/>
+  <text x="1001" y="365" fill="#43544C" font-family="serif" font-size="11">本人负责 Vue3 与 TypeScript 前端、</text>
+  <text x="1001" y="386" fill="#43544C" font-family="serif" font-size="11">FastAPI 后端、SSE 流式输出以及整体</text>
+  <text x="1001" y="407" fill="#43544C" font-family="serif" font-size="11">接口联调。团队共同完成检索方案、</text>
+  <text x="1001" y="428" fill="#43544C" font-family="serif" font-size="11">提示词约束、测试和校内推广。</text>
+
+  <rect x="334" y="630" width="582" height="2" rx="1" fill="#E2DED3"/>
+  <text x="995" y="635" fill="#9CA59F" font-family="monospace" font-size="6">CHROMA · TOP-K · SSE · CITATIONS</text>
+  <text x="1235" y="665" text-anchor="end" fill="#7E8D84" font-family="sans-serif" font-size="8">Vue 3 · FastAPI · Chroma</text>
+</svg>
